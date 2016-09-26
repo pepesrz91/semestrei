@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38EABAD61D99A30B00CBA0F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EABAD51D99A30B00CBA0F4 /* main.m */; };
+		38EABAD91D99A30B00CBA0F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EABAD81D99A30B00CBA0F4 /* AppDelegate.m */; };
+		38EABADC1D99A30B00CBA0F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EABADB1D99A30B00CBA0F4 /* ViewController.m */; };
+		38EABADF1D99A30B00CBA0F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EABADD1D99A30B00CBA0F4 /* Main.storyboard */; };
+		38EABAE11D99A30B00CBA0F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EABAE01D99A30B00CBA0F4 /* Assets.xcassets */; };
+		38EABAE41D99A30B00CBA0F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EABAE21D99A30B00CBA0F4 /* LaunchScreen.storyboard */; };
+		38EABAEF1D99A30B00CBA0F4 /* SemestreiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EABAEE1D99A30B00CBA0F4 /* SemestreiTests.m */; };
+		38EABAFA1D99A30B00CBA0F4 /* SemestreiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EABAF91D99A30B00CBA0F4 /* SemestreiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38EABAEB1D99A30B00CBA0F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38EABAC91D99A30A00CBA0F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38EABAD01D99A30B00CBA0F4;
+			remoteInfo = Semestrei;
+		};
+		38EABAF61D99A30B00CBA0F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38EABAC91D99A30A00CBA0F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38EABAD01D99A30B00CBA0F4;
+			remoteInfo = Semestrei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38EABAD11D99A30B00CBA0F4 /* Semestrei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Semestrei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EABAD51D99A30B00CBA0F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38EABAD71D99A30B00CBA0F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38EABAD81D99A30B00CBA0F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38EABADA1D99A30B00CBA0F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38EABADB1D99A30B00CBA0F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38EABADE1D99A30B00CBA0F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38EABAE01D99A30B00CBA0F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38EABAE31D99A30B00CBA0F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38EABAE51D99A30B00CBA0F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38EABAEA1D99A30B00CBA0F4 /* SemestreiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SemestreiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EABAEE1D99A30B00CBA0F4 /* SemestreiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SemestreiTests.m; sourceTree = "<group>"; };
+		38EABAF01D99A30B00CBA0F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38EABAF51D99A30B00CBA0F4 /* SemestreiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SemestreiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EABAF91D99A30B00CBA0F4 /* SemestreiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SemestreiUITests.m; sourceTree = "<group>"; };
+		38EABAFB1D99A30B00CBA0F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38EABACE1D99A30B00CBA0F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EABAE71D99A30B00CBA0F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EABAF21D99A30B00CBA0F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38EABAC81D99A30A00CBA0F4 = {
+			isa = PBXGroup;
+			children = (
+				38EABAD31D99A30B00CBA0F4 /* Semestrei */,
+				38EABAED1D99A30B00CBA0F4 /* SemestreiTests */,
+				38EABAF81D99A30B00CBA0F4 /* SemestreiUITests */,
+				38EABAD21D99A30B00CBA0F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38EABAD21D99A30B00CBA0F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38EABAD11D99A30B00CBA0F4 /* Semestrei.app */,
+				38EABAEA1D99A30B00CBA0F4 /* SemestreiTests.xctest */,
+				38EABAF51D99A30B00CBA0F4 /* SemestreiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38EABAD31D99A30B00CBA0F4 /* Semestrei */ = {
+			isa = PBXGroup;
+			children = (
+				38EABAD71D99A30B00CBA0F4 /* AppDelegate.h */,
+				38EABAD81D99A30B00CBA0F4 /* AppDelegate.m */,
+				38EABADA1D99A30B00CBA0F4 /* ViewController.h */,
+				38EABADB1D99A30B00CBA0F4 /* ViewController.m */,
+				38EABADD1D99A30B00CBA0F4 /* Main.storyboard */,
+				38EABAE01D99A30B00CBA0F4 /* Assets.xcassets */,
+				38EABAE21D99A30B00CBA0F4 /* LaunchScreen.storyboard */,
+				38EABAE51D99A30B00CBA0F4 /* Info.plist */,
+				38EABAD41D99A30B00CBA0F4 /* Supporting Files */,
+			);
+			path = Semestrei;
+			sourceTree = "<group>";
+		};
+		38EABAD41D99A30B00CBA0F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38EABAD51D99A30B00CBA0F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38EABAED1D99A30B00CBA0F4 /* SemestreiTests */ = {
+			isa = PBXGroup;
+			children = (
+				38EABAEE1D99A30B00CBA0F4 /* SemestreiTests.m */,
+				38EABAF01D99A30B00CBA0F4 /* Info.plist */,
+			);
+			path = SemestreiTests;
+			sourceTree = "<group>";
+		};
+		38EABAF81D99A30B00CBA0F4 /* SemestreiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38EABAF91D99A30B00CBA0F4 /* SemestreiUITests.m */,
+				38EABAFB1D99A30B00CBA0F4 /* Info.plist */,
+			);
+			path = SemestreiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38EABAD01D99A30B00CBA0F4 /* Semestrei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EABAFE1D99A30B00CBA0F4 /* Build configuration list for PBXNativeTarget "Semestrei" */;
+			buildPhases = (
+				38EABACD1D99A30B00CBA0F4 /* Sources */,
+				38EABACE1D99A30B00CBA0F4 /* Frameworks */,
+				38EABACF1D99A30B00CBA0F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Semestrei;
+			productName = Semestrei;
+			productReference = 38EABAD11D99A30B00CBA0F4 /* Semestrei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38EABAE91D99A30B00CBA0F4 /* SemestreiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EABB011D99A30B00CBA0F4 /* Build configuration list for PBXNativeTarget "SemestreiTests" */;
+			buildPhases = (
+				38EABAE61D99A30B00CBA0F4 /* Sources */,
+				38EABAE71D99A30B00CBA0F4 /* Frameworks */,
+				38EABAE81D99A30B00CBA0F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38EABAEC1D99A30B00CBA0F4 /* PBXTargetDependency */,
+			);
+			name = SemestreiTests;
+			productName = SemestreiTests;
+			productReference = 38EABAEA1D99A30B00CBA0F4 /* SemestreiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38EABAF41D99A30B00CBA0F4 /* SemestreiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EABB041D99A30B00CBA0F4 /* Build configuration list for PBXNativeTarget "SemestreiUITests" */;
+			buildPhases = (
+				38EABAF11D99A30B00CBA0F4 /* Sources */,
+				38EABAF21D99A30B00CBA0F4 /* Frameworks */,
+				38EABAF31D99A30B00CBA0F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38EABAF71D99A30B00CBA0F4 /* PBXTargetDependency */,
+			);
+			name = SemestreiUITests;
+			productName = SemestreiUITests;
+			productReference = 38EABAF51D99A30B00CBA0F4 /* SemestreiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38EABAC91D99A30A00CBA0F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jose Juan Suarez";
+				TargetAttributes = {
+					38EABAD01D99A30B00CBA0F4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					38EABAE91D99A30B00CBA0F4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 38EABAD01D99A30B00CBA0F4;
+					};
+					38EABAF41D99A30B00CBA0F4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 38EABAD01D99A30B00CBA0F4;
+					};
+				};
+			};
+			buildConfigurationList = 38EABACC1D99A30A00CBA0F4 /* Build configuration list for PBXProject "Semestrei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38EABAC81D99A30A00CBA0F4;
+			productRefGroup = 38EABAD21D99A30B00CBA0F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38EABAD01D99A30B00CBA0F4 /* Semestrei */,
+				38EABAE91D99A30B00CBA0F4 /* SemestreiTests */,
+				38EABAF41D99A30B00CBA0F4 /* SemestreiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38EABACF1D99A30B00CBA0F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EABAE41D99A30B00CBA0F4 /* LaunchScreen.storyboard in Resources */,
+				38EABAE11D99A30B00CBA0F4 /* Assets.xcassets in Resources */,
+				38EABADF1D99A30B00CBA0F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EABAE81D99A30B00CBA0F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EABAF31D99A30B00CBA0F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38EABACD1D99A30B00CBA0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EABADC1D99A30B00CBA0F4 /* ViewController.m in Sources */,
+				38EABAD91D99A30B00CBA0F4 /* AppDelegate.m in Sources */,
+				38EABAD61D99A30B00CBA0F4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EABAE61D99A30B00CBA0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EABAEF1D99A30B00CBA0F4 /* SemestreiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EABAF11D99A30B00CBA0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EABAFA1D99A30B00CBA0F4 /* SemestreiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38EABAEC1D99A30B00CBA0F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38EABAD01D99A30B00CBA0F4 /* Semestrei */;
+			targetProxy = 38EABAEB1D99A30B00CBA0F4 /* PBXContainerItemProxy */;
+		};
+		38EABAF71D99A30B00CBA0F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38EABAD01D99A30B00CBA0F4 /* Semestrei */;
+			targetProxy = 38EABAF61D99A30B00CBA0F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38EABADD1D99A30B00CBA0F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EABADE1D99A30B00CBA0F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38EABAE21D99A30B00CBA0F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EABAE31D99A30B00CBA0F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38EABAFC1D99A30B00CBA0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38EABAFD1D99A30B00CBA0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38EABAFF1D99A30B00CBA0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Semestrei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "John-Doe.Semestrei";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38EABB001D99A30B00CBA0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Semestrei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "John-Doe.Semestrei";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38EABB021D99A30B00CBA0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SemestreiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "John-Doe.SemestreiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semestrei.app/Semestrei";
+			};
+			name = Debug;
+		};
+		38EABB031D99A30B00CBA0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SemestreiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "John-Doe.SemestreiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semestrei.app/Semestrei";
+			};
+			name = Release;
+		};
+		38EABB051D99A30B00CBA0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SemestreiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "John-Doe.SemestreiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Semestrei;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		38EABB061D99A30B00CBA0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SemestreiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "John-Doe.SemestreiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Semestrei;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38EABACC1D99A30A00CBA0F4 /* Build configuration list for PBXProject "Semestrei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EABAFC1D99A30B00CBA0F4 /* Debug */,
+				38EABAFD1D99A30B00CBA0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EABAFE1D99A30B00CBA0F4 /* Build configuration list for PBXNativeTarget "Semestrei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EABAFF1D99A30B00CBA0F4 /* Debug */,
+				38EABB001D99A30B00CBA0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38EABB011D99A30B00CBA0F4 /* Build configuration list for PBXNativeTarget "SemestreiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EABB021D99A30B00CBA0F4 /* Debug */,
+				38EABB031D99A30B00CBA0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38EABB041D99A30B00CBA0F4 /* Build configuration list for PBXNativeTarget "SemestreiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EABB051D99A30B00CBA0F4 /* Debug */,
+				38EABB061D99A30B00CBA0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38EABAC91D99A30A00CBA0F4 /* Project object */;
+}
